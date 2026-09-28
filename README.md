@@ -77,7 +77,7 @@ The system asks two questions together:
 
 ---
 
-## 🎬 Demo Walkthrough (≈ 3 minutes)
+## 🎬 Demo
 
 > Run the app locally and click **Load Demo Scenario** in the sidebar.
 
@@ -231,7 +231,7 @@ Reported on **held-out test lots only**, across the random splits run in develop
 |---|---|---|
 | **Recall / FNR** | 100% recall, zero false negatives on every test split run | Deliberate, recall-biased design |
 | **Precision** | Moderate, typically 30-55% | A trade-off: over-flag for human review rather than let a defect through |
-| **168h MAE** | Gradient boosting beat the linear baseline on every held-out split tested | After the relative-ratio fix (see [Bugs Fixed](#-bugs-found-and-fixed-during-development)) |
+| **168h MAE** | Gradient boosting beat the linear baseline on every held-out split tested | After the relative-ratio fix|
 
 ---
 
@@ -343,7 +343,5 @@ This is a research and hackathon prototype running on a **synthetic dataset that
 ### Burn-In Anomaly Detection: Screen against the lot, not just the limit.
 
 **Smart India Hackathon 2026 · SIH26170**
-
-*Built to catch the parts a fixed line would miss.*
 
 </div>
